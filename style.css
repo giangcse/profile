@@ -1,21 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.s1 {
-  background-image: linear-gradient(
-    to left bottom,
-    #845ec2,
-    #2c73d2,
-    #0081cf,
-    #0089ba,
-    #008e9b,
-    #008f7a
-  );
 }
 
 #logo {
@@ -71,6 +59,18 @@
   }
 }
 
+.s1 {
+  background-image: linear-gradient(
+    to left bottom,
+    #845ec2,
+    #2c73d2,
+    #0081cf,
+    #0089ba,
+    #008e9b,
+    #008f7a
+  );
+}
+
 .s1 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 64px;
@@ -87,16 +87,17 @@
 
 .s2 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   position: absolute;
   top: 15%;
   left: 50%;
   transform: translate(-50%, -15%);
+  text-transform: uppercase;
 }
 
 .avatar {
   position: absolute;
-  left: -10%;
+  left: 15%;
   top: 25%;
   width: 15%;
   height: 40%;
@@ -104,6 +105,16 @@
   transition: 1s;
   transform: translateX(100%);
   border-radius: 20px;
+}
+
+#information {
+  padding: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  text-align: justify;
 }
 
 a.button {
