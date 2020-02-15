@@ -98,6 +98,7 @@
 
 .s3{
   background-image: url("IMG20200119165947.jpg");
+  object-fit: cover;
 }
 
 .avatar {
