@@ -97,8 +97,7 @@
 }
 
 .s3{
-  background-image: url("myCV.jpg");
-  object-fit: contain;
+  background-color: white;
 }
 
 .avatar {
