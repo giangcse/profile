@@ -8,6 +8,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <style>
+        .item {
+            position:relative;
+            padding-top:20px;
+            display:inline-block;
+        }
+        .notify-badge{
+            position: absolute;
+            right: 90px;
+            top:220px;
+            background:white;
+            text-align: center;
+            border-radius: 50px 50px 50px 50px;
+            /* color:white; */
+            padding:5px 5px;
+            font-size:20px;
+        }
+    </style>
     <title>Hello, world!</title>
     <!-- Image and text -->
     <nav class="navbar navbar-dark bg-dark sticky-top">
@@ -23,8 +41,14 @@
             <div class="card text-center">
                 <img src="banner.png" class="card-img-top" height="280px" alt="Giang's avatar">
                 <br>
-                <center>                
-                    <img src="avatar.jpg" class="rounded-circle" alt="my avatar" width="240px">
+                <center>    
+                    <div class="col-sm-4">
+                        <div class="item">
+                            <span class="notify-badge"><img src="https://img.icons8.com/fluent/48/000000/verified-account.png"/></span>
+                            <img src="avatar.jpg" class="rounded-circle" alt="my avatar" width="240px">
+                      </div>
+                  </div>            
+                    <!-- <img src="avatar.jpg" class="rounded-circle" alt="my avatar" width="240px"> -->
                 </center>
                 <div class="card-body">
                     <h1>THANH GIANG PHAN <img src="https://images.emojiterra.com/twitter/v13.0/512px/1f1fb-1f1f3.png" alt="Vietnamese's flag" width="50px"></h1>
